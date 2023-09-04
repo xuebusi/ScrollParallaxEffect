@@ -1,5 +1,5 @@
 //
-//  Home.swift
+//  HomeView.swift
 //  ScrollParallaxEffect
 //
 //  Created by shiyanjun on 2023/9/4.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Home: View {
+struct HomeView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             ParallaxEffect()
@@ -17,9 +17,9 @@ struct Home: View {
     }
 }
 
-struct Home_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        HomeView()
     }
 }
 

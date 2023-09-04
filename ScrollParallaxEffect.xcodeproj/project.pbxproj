@@ -14,7 +14,7 @@
 		2B75C2862AA5887F00F2677B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75C2852AA5887F00F2677B /* ContentView.swift */; };
 		2B75C2882AA5888000F2677B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B75C2872AA5888000F2677B /* Assets.xcassets */; };
 		2B75C28B2AA5888000F2677B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B75C28A2AA5888000F2677B /* Preview Assets.xcassets */; };
-		2BA2A5492AA5CCEF00FEF9BC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2A5482AA5CCEF00FEF9BC /* Home.swift */; };
+		2BA2A5492AA5CCEF00FEF9BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2A5482AA5CCEF00FEF9BC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		2B75C2852AA5887F00F2677B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B75C2872AA5888000F2677B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B75C28A2AA5888000F2677B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2BA2A5482AA5CCEF00FEF9BC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2BA2A5482AA5CCEF00FEF9BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +62,11 @@
 		2B75C2822AA5887F00F2677B /* ScrollParallaxEffect */ = {
 			isa = PBXGroup;
 			children = (
-				2B75C2832AA5887F00F2677B /* ScrollParallaxEffectApp.swift */,
 				2B75C2852AA5887F00F2677B /* ContentView.swift */,
+				2BA2A5482AA5CCEF00FEF9BC /* HomeView.swift */,
+				2B75C2832AA5887F00F2677B /* ScrollParallaxEffectApp.swift */,
 				2B75C2872AA5888000F2677B /* Assets.xcassets */,
 				2B75C2892AA5888000F2677B /* Preview Content */,
-				2BA2A5482AA5CCEF00FEF9BC /* Home.swift */,
 			);
 			path = ScrollParallaxEffect;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B75C2862AA5887F00F2677B /* ContentView.swift in Sources */,
-				2BA2A5492AA5CCEF00FEF9BC /* Home.swift in Sources */,
+				2BA2A5492AA5CCEF00FEF9BC /* HomeView.swift in Sources */,
 				2B75C2842AA5887F00F2677B /* ScrollParallaxEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
